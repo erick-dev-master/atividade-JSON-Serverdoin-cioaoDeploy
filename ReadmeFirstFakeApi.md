@@ -34,8 +34,7 @@ Caso dê tudo certo, a resposta será assim:
     "name": "John Doe",
     "age": 18,
     "id": 1
-  }
-}
+ }
 
 ```
 <h2 align ='center'> Possíveis erros </h2>
@@ -79,8 +78,7 @@ Caso dê tudo certo, a resposta será assim:
     "name": "John Doe",
     "age": 18,
     "id": 1
-  }
-}
+ }
 ```
 
 Com essa resposta, vemos que temos duas informações, o user e o token respectivo, dessa forma você pode guardar o token e o usuário logado no localStorage para fazer a gestão do usuário no seu frontend.
@@ -150,12 +148,13 @@ Obtendo as liguagens de programação que você cadastrou
 
 Caso dê tudo certo, a resposta será assim:
 
-```json[
-{
-    "languageName": "python",
-    "nivel": "junior",
-    "id": 1
-}
+```json
+[
+	{
+	    "languageName": "python",
+	    "nivel": "junior",
+	    "id": 1
+	}
 ]
 ```
 
